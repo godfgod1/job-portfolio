@@ -2,9 +2,11 @@
   "name": "job-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://godfgod1.github.io/job-portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
