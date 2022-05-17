@@ -10,20 +10,15 @@ const Body = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-// const Img = styled.img`
-
-// `
-
-export default function Home() {
-  return (
-    <Body>
-    <Seo title="Home"/>
-
-    <div>
-      꾸준히 성장하는  개발자 이성우 입니다.
-      </div>
-
-    </Body>
-  )
-}
+export default function Career() {
+    return (
+      <Body>
+      <Seo title="Home"/>
+  
+      <div>
+        꾸준히 성장하는  개발자 이성우 입니다.
+        </div>
+  
+      </Body>
+    )
+  }
