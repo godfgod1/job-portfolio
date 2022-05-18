@@ -10,7 +10,7 @@ const Body = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export default function Career() {
+export default function Project() {
     return (
       <Body>
       <Seo title="Home"/>

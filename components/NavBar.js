@@ -7,6 +7,8 @@ const Container = styled.div`
   height: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+max-width:1200px;
+margin:0 auto;
 `;
 
 const Box = styled.div`
@@ -19,9 +21,11 @@ const Box = styled.div`
   border: 1px solid #27ae60;
   border-top:none;
   border-bottom: 5px solid #27ae60;
+ 
   background-color:${
     props =>   props.path === props.text  ? 'white' :  "#2ecc71"
   }
+
 `;
 const HomeBox = styled.div`
   width: auto;
@@ -33,9 +37,12 @@ const HomeBox = styled.div`
   border: 1px solid #27ae60;
   border-top:none;
   border-bottom: 5px solid #27ae60;
+ 
   background-color:${
     props =>   props.path.length == 0  ? 'white' :  "#2ecc71"
   }
+ 
+  
 `;
 // #2ecc71
 export default function NavBar() {
@@ -54,9 +61,9 @@ export default function NavBar() {
           <a>About</a>
         </Link>
       </Box>
-      <Box path={pathname} text={'career'}>
-        <Link href="/career">
-          <a>Career</a>
+      <Box path={pathname} text={'project'}>
+        <Link href="/project">
+          <a>Project</a>
         </Link>
       </Box>
       <Box path={pathname} text={'contact'}>

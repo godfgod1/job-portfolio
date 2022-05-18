@@ -1,25 +1,113 @@
-import styled from 'styled-components'; 
-import Seo from "../components/Seo"
+import styled from "styled-components";
+import Seo from "../components/Seo";
+import { Body } from "./index";
 
-const Body = styled.div`
-  padding: 0px 20px;
-  max-width:800px;
-  height:90vh;
-  margin:0 auto;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+const AboutBody = styled(Body)`
+  display: flex;
+  flex-direction: column;
 `;
 
-export default function Contact() {
-    return (
-      <Body>
-      <Seo title="Home"/>
-  
-      <div>
-        꾸준히 성장하는  개발자 이성우 입니다.
-        </div>
-  
-      </Body>
-    )
-  }
+const Container = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin: 20px 0px;
+`;
+const Title = styled.header`
+  font-size: 30px;
+`;
+
+const List = styled.li`
+  margin: 10px 0px;
+`;
+const SmallTitle = styled(Title)`
+  font-size: 18px;
+`;
+const SmallList = styled(List)`
+  font-size: 15px;
+  display:grid;
+grid-template-columns: 90px auto;
+`;
+
+// const SmallContinaer = styled(Container)``;
+// const Flex = styled.div`
+//   display: flex;
+//   justfy-content:space-around;
+//   width:800px;
+// `;
+const TextBox = styled.div`
+margin-top:10px;
+width:1000px;
+height:200px;
+  background-color:white;
+  padding: 20px;
+  border-radius:5px;
+`
+const Box = styled.div`
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+width:1000px;
+`
+
+const education = [
+  "세명대학교 국제통상학과 졸",
+  "코드스테이츠 소프트웨어 엔지니어링 과정 26기 수료",
+];
+
+
+
+export default function About() {
+  return (
+    <AboutBody>
+      <Seo title="About" />
+      <Container>
+      <Title>&nbsp;&nbsp;Introduce</Title>
+      <TextBox>
+       소통, 유연함, 공유로 꾸준히 성장을 하는 개발자 이성우 입니다.<br/><br/>
+       개발을 하면서 소통을 통해 문제를 해결하고, 수준있는 코드를 작성하려고 합니다. <br/><br/>
+       새로운 기술과 지식에 대한 유연함으로 끊임없이 성장하는 개발자가 되려고 합니다.<br/><br/>
+       지식의 공유를 하면서 나뿐만 아니라, 함께 일하는 동료들과 성장하려고 합니다.<br/><br/>
+       소통, 유연함, 공유로 계속해서 발전하는 개발자가 되겠습니다.
+      </TextBox>
+      </Container>
+      <Box>
+      <Container>
+        <Title>Preferred Position</Title>
+        <ol>
+          <List>1. 백엔드 개발자</List>
+          <List>2. 풀스택 개발자</List>
+        </ol>
+      </Container>
+      <Container>
+        <Title>Skills</Title>
+        <ol>
+          <SmallList><SmallTitle>Language</SmallTitle><span>: Javascript(TypeScript), Python, PHP</span> </SmallList>
+          <SmallList><SmallTitle>FrontEnd</SmallTitle><span>: ReactJS, NextJS, Tailwind CSS, HTML, CSS </span> </SmallList>
+          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: Node, NestJS, Laravel, MySQL, MarinaDB, Eloquent ORM </span> </SmallList>
+          <SmallList><SmallTitle>DevOps</SmallTitle><span>: Vercel, AWS, Heroku, Git  </span> </SmallList>
+          <SmallList><SmallTitle>ETC</SmallTitle><span>: Slack, ClickUp, Notion </span> </SmallList>
+          
+        </ol>
+      </Container>
+      <Container>
+        <Title>Education</Title>
+        <ol>
+          {education.map((el) => (
+            <List>{el}</List>
+          ))}
+        </ol>
+      </Container>
+      <Container>
+        <Title>Career</Title>
+        <ol>
+          <List>파츠고(6개월)파츠고(6개월)파츠고(6개월) </List>
+          <List>루나랩스(3개월)</List>
+        </ol>
+      </Container>
+      
+      </Box>
+    </AboutBody>
+  );
+}
