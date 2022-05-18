@@ -13,7 +13,7 @@ const Container = styled.div`
   flex-direction: column;
   width: auto;
   height: auto;
-  margin: 20px 0px;
+  margin: 10px 0px;
 `;
 const Title = styled.header`
   font-size: 30px;
@@ -39,8 +39,8 @@ grid-template-columns: 90px auto;
 // `;
 const TextBox = styled.div`
 margin-top:10px;
-width:1000px;
-height:200px;
+width:800px;
+height:180px;
   background-color:white;
   padding: 20px;
   border-radius:5px;
@@ -48,7 +48,7 @@ height:200px;
 const Box = styled.div`
 display:grid;
 grid-template-columns: repeat(2, 1fr);
-width:1000px;
+width:800px;
 `
 
 const education = [
@@ -85,7 +85,7 @@ export default function About() {
         <ol>
           <SmallList><SmallTitle>Language</SmallTitle><span>: Javascript(TypeScript), Python, PHP</span> </SmallList>
           <SmallList><SmallTitle>FrontEnd</SmallTitle><span>: ReactJS, NextJS, Tailwind CSS, HTML, CSS </span> </SmallList>
-          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: Node, NestJS, Laravel, MySQL, MarinaDB, Eloquent ORM </span> </SmallList>
+          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: Node, NestJS, Laravel, MySQL, <p style={{marginTop:"5px"}}>&nbsp;&nbsp;MarinaDB, Eloquent ORM </p></span> </SmallList>
           <SmallList><SmallTitle>DevOps</SmallTitle><span>: Vercel, AWS, Heroku, Git  </span> </SmallList>
           <SmallList><SmallTitle>ETC</SmallTitle><span>: Slack, ClickUp, Notion </span> </SmallList>
           
@@ -102,7 +102,7 @@ export default function About() {
       <Container>
         <Title>Career</Title>
         <ol>
-          <List>파츠고(6개월)파츠고(6개월)파츠고(6개월) </List>
+          <List>파츠고(6개월)</List>
           <List>루나랩스(3개월)</List>
         </ol>
       </Container>
