@@ -94,8 +94,8 @@ export default function About() {
       <Container>
         <Title>Education</Title>
         <ol>
-          {education.map((el) => (
-            <List>{el}</List>
+          {education.map((el, i) => (
+            <List key={i}>{el}</List>
           ))}
         </ol>
       </Container>
