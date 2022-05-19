@@ -1,16 +1,22 @@
 import styled from 'styled-components'; 
 import Seo from "../components/Seo"
 
-export const Body = styled.div`
+export const FlexCenter = styled.div`
+    display:flex;
+    display:flex;
+  justify-content: center;
+  align-items: center;
+`
+
+export const Body = styled(FlexCenter)`
 height:85vh;
 padding: 0px 20px;
 max-width:1200px;
 margin:0 auto;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+ 
   background-color:#F5F7F9;
 `;
+
 
 
 const Box = styled.div`
@@ -18,7 +24,7 @@ const Box = styled.div`
   flex-direction:column;
   align-items:center;
 `
-const Img = styled.img`
+export const Img = styled.img`
 width:300px;
 height:300px;
   border-radius:150px;

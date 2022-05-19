@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Seo from "../components/Seo";
 import { Body } from "./index";
 
-const AboutBody = styled(Body)`
+export const ColumnBody = styled(Body)`
   display: flex;
   flex-direction: column;
 `;
@@ -15,7 +15,7 @@ const Container = styled.div`
   height: auto;
   margin: 10px 0px;
 `;
-const Title = styled.header`
+export const Title = styled.header`
   font-size: 30px;
 `;
 
@@ -60,7 +60,7 @@ const education = [
 
 export default function About() {
   return (
-    <AboutBody>
+    <ColumnBody>
       <Seo title="About" />
       <Container>
       <Title>&nbsp;&nbsp;Introduce</Title>
@@ -108,6 +108,6 @@ export default function About() {
       </Container>
       
       </Box>
-    </AboutBody>
+    </ColumnBody>
   );
 }
