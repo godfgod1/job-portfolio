@@ -40,12 +40,12 @@ export default function Contact() {
         <Box>
           <LogoImg src="/logos/gmail.png"/><span>godfgod3@gmail.com</span>
         </Box>
-        <a href="https://developer-trier.tistory.com" target="_blank">
+        <a href="https://developer-trier.tistory.com" target="_blank" rel="noopener">
         <Box>
           <LogoImg src="/logos/tstory.png"/><span >기술공부 블로그 링크</span>
         </Box>
         </a>
-        <a href="https://github.com/godfgod1" target="_blank">
+        <a href="https://github.com/godfgod1" target="_blank" rel="noopener">
         <Box>
           <LogoImg src="/logos/github.png"/><span>깃허브 링크</span>
         </Box>
