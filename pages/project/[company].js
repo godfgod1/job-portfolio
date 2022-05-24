@@ -35,10 +35,11 @@ const Container = styled.div`
 export const ProjectImg = styled.img`
   max-width: 160px;
   max-height: 80px;
+  
 `;
 const Text = styled.span`
-  margin-top: 20px;
-  font-size: 25px;
+  font-size: 10px;
+  text-align:center;
 `;
 
 const ContentBox = styled.div`
@@ -98,7 +99,18 @@ export default function ProjectDetail() {
         {datas?.map((data) => (
           <Box>
             <ColumnBox>
+            { data.url ?
+            <>
+              <a href={data.url} target="_blank" rel="noreferrer">
+                <ProjectImg src={data.img} />
+              </a>
+              <div style={{textAlign:"center", width:"100%"}}>
+                <Text>(로고를 클릭해주세요)</Text>
+              </div>
+            </>
+              : 
               <ProjectImg src={data.img} />
+            }
             </ColumnBox>
             <ColumnBox>
               <ContentBox>
@@ -122,7 +134,7 @@ export default function ProjectDetail() {
                 <ContentList>
                   <ol>
                     {data.my_task?.map((li, idex) => (
-                      <List>
+                      <List key={idex}>
                         <span>{idex + 1}</span> 
                         <span>{li}</span> 
                       </List>
