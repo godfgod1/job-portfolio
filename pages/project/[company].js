@@ -96,8 +96,8 @@ export default function ProjectDetail() {
     <Body>
       <Seo title="ProjectDetail" />
       <Container>
-        {datas?.map((data) => (
-          <Box>
+        {datas?.map((data, i) => (
+          <Box key={i}>
             <ColumnBox>
             { data.url ?
             <>
@@ -135,8 +135,8 @@ export default function ProjectDetail() {
                   <ol>
                     {data.my_task?.map((li, idex) => (
                       <List key={idex}>
-                        <span>{idex + 1}</span> 
-                        <span>{li}</span> 
+                        <span >{idex + 1}</span> 
+                        <span >{li}</span> 
                       </List>
                     ))}
                   </ol>
