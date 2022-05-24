@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const Logo = styled(Img)`
 width:300px;
-height:200px;
-border-radius:30px;
+height:150px;
+border-radius:10px;
 `
 const Container = styled.div`
 margin-top:50px;
@@ -25,18 +25,24 @@ export default function Project() {
       <Container>
         <Link
         href={{
-          pathname: '/lunalabs',
+          pathname: '/project/lunalabs',
+          query:{
+            company:"luna"
+          }
         }}
         
         >
-        <Logo src="/lunalabs.jpeg"/>
+        <a  ><Logo src="/lunalabs.jpeg"/></a>
         </Link>
         <Link
         href={{
-          pathname: '/partsgo',
+          pathname: '/project/partsgo',
+          query:{
+            company:"parts"
+          }
         }}
         >
-        <Logo src="/partsgo.png"/>
+        <a><Logo src="/partsgo.png"/></a>
         </Link>
       </Container>
   

@@ -15,6 +15,7 @@ const Container = styled.div`
   height: auto;
   margin: 10px 0px;
 `;
+
 export const Title = styled.header`
   font-size: 30px;
 `;
