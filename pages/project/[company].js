@@ -39,7 +39,6 @@ export const ProjectImg = styled.img`
 `;
 const Text = styled.span`
   font-size: 10px;
-  text-align:center;
 `;
 
 const ContentBox = styled.div`
@@ -51,12 +50,12 @@ const ContentBox = styled.div`
   justify-items: left;
 `;
 const Content = styled.div`
+height:10px;
   margin: 10px;
   font-size: 14px;
 `;
 const ContentList = styled(Content)`
- 
-  max-height:120px;
+  height:120px;
   overflow-y: scroll;
   &::-webkit-scrollbar {
     width: 4px;
@@ -130,7 +129,7 @@ export default function ProjectDetail() {
                 <Content>{data.task}</Content>
               </ContentBox>
               <ContentBox>
-                <DetailTitle>나의 주요 업무 </DetailTitle>
+                <DetailTitle>주요 업무 </DetailTitle>
                 <ContentList>
                   <ol>
                     {data.my_task?.map((li, idex) => (

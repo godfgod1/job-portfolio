@@ -16,12 +16,17 @@ margin-top:50px;
   display:flex;
   justify-content:space-around;
 `
+const Text = styled.span`
+  font-size: 12px;
+  margin-top:10px;
+`;
 
 export default function Project() {
     return (
       <ColumnBody>
       <Seo title="Project"/>
       <Title>Project</Title>
+      <Text>(로고를 클릭해주세요)</Text>
       <Container>
         <Link
         href={{
