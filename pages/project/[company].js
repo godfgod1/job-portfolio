@@ -129,7 +129,7 @@ export default function ProjectDetail() {
                 <Content>{data.task}</Content>
               </ContentBox>
               <ContentBox>
-                <DetailTitle>주요 업무 </DetailTitle>
+                <DetailTitle>주요 수행업무 </DetailTitle>
                 <ContentList>
                   <ol>
                     {data.my_task?.map((li, idex) => (
