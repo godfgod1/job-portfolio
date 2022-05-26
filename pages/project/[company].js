@@ -12,7 +12,7 @@ const Box = styled.div`
   justify-items: center;
   width: 400px;
   height: 600px;
-  fontsize: 10px;
+  font-size: 10px;
   border: 3px solid #f5f7f9;
   padding-top: 10px;
 `;
@@ -66,7 +66,7 @@ const ContentList = styled(Content)`
   }
 `;
 const DetailTitle = styled(Title)`
-  font-size: 16px;
+  font-size: 14px;
 `;
 const List = styled.li`
   margin-bottom: 10px;
