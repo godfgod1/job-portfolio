@@ -18,7 +18,7 @@ export const lunaData = [
   export const partsData = [
     {
       img: "admin.jpg",
-      project_name: "파츠고 관리자 웹페이지 운영 ",
+      project_name: "파츠고 관리자 웹사이트 운영 ",
       url: null,
       position: "풀스택",
       stacks: "React, PHP, Laravel, marinaDB, NestJS",
@@ -34,7 +34,7 @@ export const lunaData = [
     },
     {
       img: "pandaparts.png",
-      project_name: "판다파츠 2022년 리뉴얼 사이트 개발 및 운영",
+      project_name: "판다파츠 2022년 리뉴얼 웹사이트 개발 및 운영",
       url: "https://pandaparts.co.kr/",
       position: "풀스택",
       stacks: "React, NextJS, Laravel, marinaDB, NestJS, Twilio SendGrid",
@@ -61,7 +61,7 @@ export const lunaData = [
       task:
         "만들어진 디자인에 따라 프론트 작업하여 웹사이트 개발",
       my_task: [
-        "원페이지 스크롤 사이트으로 개발",
+        "원페이지 스크롤 웹사이트으로 개발",
         "전자제품 API를 활용해서 검색 기능 구현",
         "API로 가져온 데이터를 가격 기준으로 오름차순으로 데이터 가공하여 표시",
       ],
