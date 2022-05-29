@@ -77,7 +77,7 @@ export const lunaData = [
       position: "풀스택",
       stacks: "React, NextJS, Laravel, marinaDB, NestJS, Twilio SendGrid",
       task:
-        "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택 개발 및 운영 및 고도화 작업",
+        "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택 개발 및 운영과 고도화 작업",
       my_task: [
         "대용량 데이터를 검색할때 먼저 가져오는 것부터 실시간으로 보여주는 polling search 기능 구현",
         "검색된 데이터를 필터 조건에 맞게 재검색할 수 있도록 구현",
