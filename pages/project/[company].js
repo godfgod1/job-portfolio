@@ -135,6 +135,10 @@ export default function ProjectDetail() {
                 <Content>{data.project_name}</Content>
               </ContentBox>
               <ContentBox>
+                <DetailTitle>작업날짜</DetailTitle>
+                <Content>{data.date}</Content>
+              </ContentBox>
+              <ContentBox>
                 <DetailTitle>포지션</DetailTitle>
                 <Content>{data.position}</Content>
               </ContentBox>

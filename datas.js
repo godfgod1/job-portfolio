@@ -2,6 +2,7 @@ export const personalData = [
     {
       img: "remote-job-searching.gif",
       url: null,
+      date: "2021-09",
       project_name: "원격근무잡 크롤링  ",
       position: "풀스택",
       stacks: "Python, Flask, BeautifulSoup4, Requests, Heroku, HTML/CSS",
@@ -17,6 +18,7 @@ export const personalData = [
     {
       img: "dashboard.gif",
       url: "https://song-corona-dashboard.herokuapp.com/",
+      date: "2021-09",
       project_name: "코로나 대쉬보드",
       position: "프론트",
       stacks: "Python, pandas, plotly dash, jupyter-lab, Heroku",
@@ -35,6 +37,7 @@ export const lunaData = [
     {
       img: "gtx.png",
       url: null,
+      date: "2021-08~2021-10",
       project_name: "대림건설의 GTX 공사 통합관리시스템",
       position: "풀스택",
       stacks: "React, jQuery, Node.js, MySQL",
@@ -51,12 +54,13 @@ export const lunaData = [
   export const partsData = [
     {
       img: "admin.jpg",
+      date: "2021-11~2022-05",
       project_name: "파츠고 관리자 웹사이트 운영 ",
       url: null,
       position: "풀스택",
       stacks: "React, PHP, Laravel, marinaDB, NestJS",
       task:
-        "관리자웹페이지 기능 추가 및 유지보수",
+        "관리자 웹사이트 운영 및 고도화 작업",
       my_task: [
         "기존의 Session을 JWT 로그인으로 변경",
         "toast grid을 활용하여 데이터를 수정 및 삭제 기능 구현",
@@ -67,12 +71,13 @@ export const lunaData = [
     },
     {
       img: "pandaparts.png",
+      date: "2021-12~2022-05",
       project_name: "판다파츠 2022년 리뉴얼 웹사이트 개발 및 운영",
       url: "https://pandaparts.co.kr/",
       position: "풀스택",
       stacks: "React, NextJS, Laravel, marinaDB, NestJS, Twilio SendGrid",
       task:
-        "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택으로 웹사이트개발 및 상용화 문제에 있어서 에러해결 등 실시간 대응 등 운영",
+        "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택 개발 및 운영 및 고도화 작업",
       my_task: [
         "대용량 데이터를 검색할때 먼저 가져오는 것부터 실시간으로 보여주는 polling search 기능 구현",
         "검색된 데이터를 필터 조건에 맞게 재검색할 수 있도록 구현",
@@ -87,12 +92,13 @@ export const lunaData = [
     },
     {
       img: "partsgosite.png",
+      date: "2022-04",
       project_name: "파츠고 2022년 리뉴얼 사이트 개발",
       url: null,
       position: "프론트엔드",
       stacks: "React, NextJS, Tailwind CSS",
       task:
-        "만들어진 디자인에 따라 프론트 작업하여 웹사이트 개발",
+        "만들어진 디자인에 따라 웹사이트 개발",
       my_task: [
         "원페이지 스크롤 웹사이트으로 개발",
         "전자제품 API를 활용해서 검색 기능 구현",
