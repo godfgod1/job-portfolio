@@ -9,6 +9,9 @@ const Logo = styled(Img)`
 width:200px;
 height:100px;
 border-radius:10px;
+&:hover {
+  transform:scale(1.5,1.5);
+}
 `
 
 const Box = styled(FlexCenter)`
@@ -18,6 +21,10 @@ border:1px solid white;
 border-radius:10px;
 background-color:white;
 font-size:24px;
+&:hover {
+  transform:scale(1.5,1.5);
+}
+
 `
 const Container = styled.div`
 margin-top:50px;
