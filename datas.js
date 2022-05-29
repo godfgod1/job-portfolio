@@ -1,3 +1,36 @@
+export const personalData = [
+    {
+      img: "remote-job-searching.gif",
+      url: null,
+      project_name: "원격근무잡 크롤링  ",
+      position: "풀스택",
+      stacks: "Python, Flask, BeautifulSoup4, Requests, Heroku, HTML/CSS",
+      task:
+        "stackOverFlow, Wework-Remotely, Remoteok 3개의 사이트에서 원격근무 일자리만  키워드에 맞게 크롤링해서 보여줌.",
+      my_task: [
+        "BeautifulSoup4을 이용해서 크롤링",
+        "한번 검색하고 난 데이터는 서버에 저장시켜서 재검색할 때 로딩시간을 줄임",
+        "검색한 데이터를 다운 받아서 엑셀파일로 열수 있도록 CSV 다운로드 기능",
+        "잘못된 검색을 하거나 서버에러가 생길 경우 에러페이지로 넘어가도록 함",
+      ],
+    },
+    {
+      img: "dashboard.gif",
+      url: "https://song-corona-dashboard.herokuapp.com/",
+      project_name: "코로나 대쉬보드",
+      position: "프론트",
+      stacks: "Python, pandas, plotly dash, jupyter-lab, Heroku",
+      task:
+        "전세계 코로나 확진자, 사망자, 완치자를 맵, 테이블, 막대그래프, 라인차트로 보여주는 대쉬보드"
+        ,
+      my_task: [
+        "'CSSEGISandData'의 데이터를 Pandas로 데이터를 전처리",
+        "plotly dash를 사용하여 데이터 시각화",
+        "셀렉트 기능을 넣어서 국가별로 라인차트가 보여지게 함",
+        
+      ],
+    },
+  ];
 export const lunaData = [
     {
       img: "gtx.png",

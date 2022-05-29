@@ -1,14 +1,23 @@
 import styled from 'styled-components'; 
 import Seo from "../../components/Seo"
-import { Body, Img } from "../index";
+import { Body, Img, FlexCenter } from "../index";
 import { ColumnBody, Title } from "../about";
 import Link from "next/link";
 
 
 const Logo = styled(Img)`
-width:300px;
-height:150px;
+width:200px;
+height:100px;
 border-radius:10px;
+`
+
+const Box = styled(FlexCenter)`
+width:200px;
+height:100px;
+border:1px solid white;
+border-radius:10px;
+background-color:white;
+font-size:24px;
 `
 const Container = styled.div`
 margin-top:50px;
@@ -30,12 +39,21 @@ export default function Project() {
       <Container>
         <Link
         href={{
+          pathname: '/project/personal',
+          query:{
+            company:"personal"
+          }
+        }}
+        >
+        <a  ><Box >Personal Project</Box></a>
+        </Link>
+        <Link
+        href={{
           pathname: '/project/lunalabs',
           query:{
             company:"luna"
           }
         }}
-        
         >
         <a  ><Logo src="/lunalabs.jpeg"/></a>
         </Link>

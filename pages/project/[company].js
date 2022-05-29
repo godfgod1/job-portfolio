@@ -4,7 +4,7 @@ import { Title } from "../about";
 import { FlexCenter, Body } from "../index";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import { lunaData,  partsData} from "../../datas"
+import { personalData, lunaData,  partsData} from "../../datas"
 
 const Box = styled.div`
   display: grid;
@@ -35,7 +35,15 @@ const Container = styled.div`
 export const ProjectImg = styled.img`
   max-width: 160px;
   max-height: 80px;
-  
+`;
+const ProjectHoverImg = styled(ProjectImg)`
+padding-left:10px;
+&:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:scale(8,8) translate(-10%, -10%);;
+}
 `;
 const Text = styled.span`
   font-size: 10px;
@@ -81,6 +89,9 @@ export default function ProjectDetail() {
   useEffect(() => {
     if (datas.length === 0) {
       switch (company) {
+        case "personal":
+          setDatas(personalData);
+          break;
         case "lunalabs":
           setDatas(lunaData);
           break;
@@ -90,7 +101,6 @@ export default function ProjectDetail() {
       }
     }
   });
-  console.log(company);
   return (
     <Body>
       <Seo title="ProjectDetail" />
@@ -108,6 +118,14 @@ export default function ProjectDetail() {
               </div>
             </>
               : 
+              data.img.indexOf("gif") > 0 ?
+              <>
+              <ProjectHoverImg src={data.img}/>
+              <div style={{textAlign:"center", width:"100%"}}>
+                <Text>(로고 위에 마우스포인터를 올려주세요)</Text>
+              </div>
+              </>
+              :
               <ProjectImg src={data.img} />
             }
             </ColumnBox>
