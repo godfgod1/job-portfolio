@@ -9,7 +9,7 @@ export const personalData = [
       task:
         "stackOverFlow, Wework-Remotely, Remoteok 3개의 사이트에서 원격근무 일자리만  키워드에 맞게 크롤링해서 보여줌.",
       my_task: [
-        "BeautifulSoup4을 이용해서 크롤링",
+        "BeautifulSoup4을 이용해서 크롤링봇 개발",
         "한번 검색하고 난 데이터는 서버에 저장시켜서 재검색할 때 로딩시간을 줄임",
         "검색한 데이터를 다운 받아서 엑셀파일로 열수 있도록 CSV 다운로드 기능",
         "잘못된 검색을 하거나 서버에러가 생길 경우 에러페이지로 넘어가도록 함",
