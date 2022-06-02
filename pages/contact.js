@@ -15,11 +15,12 @@ const Container = styled(FlexCenter)`
 `
 
 const Box = styled.div`
-  width:200px;
+  width:220px;
   hieght30px;
   display:grid;
 grid-template-columns: 50px 150px;
 align-items:center;
+padding-left:10px;
 `
 
 export const LogoImg = styled.img`
