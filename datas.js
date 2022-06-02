@@ -58,7 +58,7 @@ export const lunaData = [
       project_name: "파츠고 관리자 웹사이트 운영 ",
       url: null,
       position: "풀스택",
-      stacks: "React, PHP, Laravel, marinaDB, NestJS, Node.js, ",
+      stacks: "React, PHP, Laravel, marinaDB, NestJS, Node.js",
       task:
         "관리자 웹사이트 운영 및 고도화 작업",
       my_task: [
