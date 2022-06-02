@@ -43,7 +43,7 @@ export default function Contact() {
         </Box>
         <a href="https://developer-trier.tistory.com" target="_blank" rel="noreferrer">
         <Box>
-          <LogoImg src="/logos/tstory.png"/><span style={{width:"100%"}}>기술공부 블로그 링크</span>
+          <LogoImg src="/logos/tstory.png"/><span style={{width:"200px"}}>기술공부 블로그 링크</span>
         </Box>
         </a>
         <a href="https://github.com/godfgod1" target="_blank" rel="noreferrer">
