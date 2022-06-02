@@ -58,7 +58,7 @@ export const lunaData = [
       project_name: "파츠고 관리자 웹사이트 운영 ",
       url: null,
       position: "풀스택",
-      stacks: "React, PHP, Laravel, marinaDB, NestJS",
+      stacks: "React, PHP, Laravel, marinaDB, NestJS, Node.js, ",
       task:
         "관리자 웹사이트 운영 및 고도화 작업",
       my_task: [
@@ -75,7 +75,7 @@ export const lunaData = [
       project_name: "판다파츠 2022년 리뉴얼 웹사이트 개발 및 운영",
       url: "https://pandaparts.co.kr/",
       position: "풀스택",
-      stacks: "React, NextJS, Laravel, marinaDB, NestJS, Twilio SendGrid",
+      stacks: "React, NextJS, Laravel, marinaDB, NestJS, Node.js, Twilio SendGrid",
       task:
         "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택 개발 및 운영과 고도화 작업",
       my_task: [
