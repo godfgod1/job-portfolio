@@ -103,7 +103,7 @@ export default function About() {
       <Container>
         <Title>Career</Title>
         <ol>
-          <List>파츠고(6개월)</List>
+          <List>파츠고(7개월)</List>
           <List>루나랩스(3개월)</List>
         </ol>
       </Container>
