@@ -26,7 +26,6 @@ const ColumnBox = styled.div`
 const Container = styled.div`
   padding: 10px
   width: 1500px;
-  height: 600px;
   background-color: white;
   display: flex;
   justify-content: space-around;
