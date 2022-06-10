@@ -11,6 +11,8 @@ const Box = styled.div`
   grid-template-rows: 100px auto;
   justify-items: center;
   width: 400px;
+  height: 500px;
+  background-color: white;
   font-size: 10px;
   border: 3px solid #f5f7f9;
   padding-top: 10px;
@@ -25,6 +27,7 @@ const ColumnBox = styled.div`
 const Container = styled.div`
   padding: 10px
   width: 1500px;
+  
   display: flex;
   justify-content: space-around;
 `;
