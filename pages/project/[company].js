@@ -11,7 +11,7 @@ const Box = styled.div`
   grid-template-rows: 100px auto;
   justify-items: center;
   width: 400px;
-  height: 500px;
+  height: 550px;
   background-color: white;
   font-size: 10px;
   border: 3px solid #f5f7f9;
