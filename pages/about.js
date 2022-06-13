@@ -86,7 +86,7 @@ export default function About() {
         <ol>
           <SmallList><SmallTitle>Language</SmallTitle><span>: Javascript(TypeScript), Python, PHP</span> </SmallList>
           <SmallList><SmallTitle>FrontEnd</SmallTitle><span>: ReactJS, NextJS, React Native, Tailwind CSS, HTML, CSS </span> </SmallList>
-          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: Node, NestJS, Laravel, MySQL, <p style={{marginTop:"5px"}}>&nbsp;&nbsp;MarinaDB, Eloquent ORM </p></span> </SmallList>
+          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: NodeJS, NestJS, Laravel, MySQL, <p style={{marginTop:"5px"}}>&nbsp;&nbsp;MarinaDB, Eloquent ORM </p></span> </SmallList>
           <SmallList><SmallTitle>DevOps</SmallTitle><span>: Vercel, AWS, Heroku, Git  </span> </SmallList>
           <SmallList><SmallTitle>ETC</SmallTitle><span>: Socket.Io, Slack, ClickUp, Notion  </span> </SmallList>
           
