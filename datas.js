@@ -21,7 +21,7 @@ export const personalData = [
       date: "2021-09",
       project_name: "코로나 대쉬보드",
       position: "프론트",
-      stacks: "Python, pandas, plotly dash, jupyter-lab, Heroku",
+      stacks: "Python, Pandas, Plotly dash, Jupyter-lab, Heroku",
       task:
         "전세계 코로나 확진자, 사망자, 완치자를 맵, 테이블, 막대그래프, 라인차트로 보여주는 대쉬보드"
         ,
@@ -40,7 +40,7 @@ export const lunaData = [
       date: "2021-08~2021-10",
       project_name: "대림건설의 GTX 공사 통합관리시스템",
       position: "풀스택",
-      stacks: "React, jQuery, Node.js, MySQL",
+      stacks: "React, JQuery, NodeJS, MySQL",
       task:
         "GTX 공사 통합관리시스템웹을 요청사항에 따라 기능 추가 및 에러 핸들링 등 유지보수 업무 수행",
       my_task: [
@@ -55,18 +55,18 @@ export const lunaData = [
     {
       img: "admin.jpg",
       date: "2021-11~2022-05",
-      project_name: "파츠고 관리자 웹사이트 운영 ",
+      project_name: "파츠고 Admin 페이지 운영 ",
       url: null,
       position: "풀스택",
-      stacks: "React, PHP, Laravel, marinaDB, NestJS, Node.js",
+      stacks: "React, PHP, Laravel, MariaDB, NestJS, NodeJS",
       task:
         "관리자 웹사이트 운영 및 고도화 작업",
       my_task: [
         "기존의 Session을 JWT 로그인으로 변경",
         "toast grid을 활용하여 데이터를 수정 및 삭제 기능 구현",
-        "출고하고 남은 재고를 파츠고 재고로 자동변경될 수 있도록 로직 수정",
+        "출고하고 남은 재고를 파츠고 재고로 자동 변경될 수 있도록 로직 수정",
         "Queue 처리를 통해서 발생한 대용량 로그정보를 순차적으로 저장하도록 변경",
-        "기존의 PHP 코드를 리액트로 변경",
+        "기존의 PHP 프론트페이지를 리액트로 변경",
       ],
     },
     {
@@ -75,7 +75,7 @@ export const lunaData = [
       project_name: "판다파츠 2022년 리뉴얼 웹사이트 개발 및 운영",
       url: "https://pandaparts.co.kr/",
       position: "풀스택",
-      stacks: "React, NextJS, Laravel, marinaDB, NestJS, Node.js, Twilio SendGrid",
+      stacks: "React, NextJS, Laravel, MariaDB, NestJS, NodeJS, Twilio SendGrid",
       task:
         "전반의 프론트엔드 작업과 고객센터, 견적기능, 마이페이지 등은 풀스택 개발 및 운영과 고도화 작업",
       my_task: [
