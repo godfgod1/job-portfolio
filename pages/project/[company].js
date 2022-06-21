@@ -151,14 +151,22 @@ export default function ProjectDetail() {
                 <Content>{data.task}</Content>
               </ContentBox>
               <ContentBox>
-                <DetailTitle>주요 수행업무 </DetailTitle>
+                <DetailTitle>주요 수행업무<br/><br/><Text>&nbsp;&nbsp;&nbsp;(파란 항목 클릭) </Text></DetailTitle>
                 <ContentList>
                   <ol>
                     {data.my_task?.map((li, idex) => (
+                    li.url ?
+                      <a href={li.url} target="_blank" rel="noreferrer" style={{color:"blue"}}>
+                        <List key={idex}>
+                          <span >{idex + 1}</span> 
+                          <span >{li.task}</span> 
+                        </List>
+                      </a>
+                      :
                       <List key={idex}>
-                        <span >{idex + 1}</span> 
-                        <span >{li}</span> 
-                      </List>
+                      <span >{idex + 1}</span> 
+                      <span >{li.task}</span> 
+                    </List>
                     ))}
                   </ol>
                 </ContentList>
