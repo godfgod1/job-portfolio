@@ -112,10 +112,10 @@ export default function ProjectDetail() {
             <>
               <a href={data.url} target="_blank" rel="noreferrer">
                 <ProjectImg src={data.img} />
-              </a>
               <div style={{textAlign:"center", width:"100%"}}>
-                <Text>(로고를 클릭해주세요)</Text>
+                <Text style={{color:"blue"}}>(이미지를 클릭해주세요)</Text>
               </div>
+              </a>
             </>
               : 
               data.img.indexOf("gif") > 0 ?
