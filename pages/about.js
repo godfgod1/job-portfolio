@@ -85,19 +85,22 @@ export default function About() {
         <Title>Skills</Title>
         <ol>
           <SmallList><SmallTitle>Language</SmallTitle><span>: Javascript(TypeScript), Python, PHP</span> </SmallList>
-          <SmallList><SmallTitle>FrontEnd</SmallTitle><span>: ReactJS, NextJS, React-Native, Tailwind CSS, HTML, CSS </span> </SmallList>
-          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: NodeJS, NestJS, Laravel, GraphQL, MySQL, <p style={{marginTop:"5px"}}>&nbsp;&nbsp;MariaDB, Eloquent ORM </p></span> </SmallList>
-          <SmallList><SmallTitle>DevOps</SmallTitle><span>: Vercel, AWS, Heroku, Git  </span> </SmallList>
+          <SmallList><SmallTitle>FrontEnd</SmallTitle><span>: ReactJS, NextJS, React-Native,<p style={{marginTop:"5px"}}/>&nbsp; Tailwind CSS, HTML, CSS </span> </SmallList>
+          <SmallList><SmallTitle>BackEnd</SmallTitle><span>: NodeJS, NestJS, Express, Laravel, <p style={{marginTop:"5px"}}/>&nbsp;&nbsp;GraphQL, MySQL, MariaDB, ORM </span> </SmallList>
+          <SmallList><SmallTitle>DevOps</SmallTitle><span>: Vercel, AWS(EC2, RDS, S3, CloudFront), <p style={{marginTop:"5px"}}/>&nbsp;&nbsp;Heroku, Git  </span> </SmallList>
           <SmallList><SmallTitle>ETC</SmallTitle><span>: Socket.Io, Slack, ClickUp, Notion  </span> </SmallList>
           
         </ol>
       </Container>
       <Container>
-        <Title>Education</Title>
+        <Title>Education<span style={{fontSize:"10px"}}>(파란 항목 클릭시 링크)</span></Title>
         <ol>
-          {education.map((el, i) => (
-            <List key={i}>{el}</List>
-          ))}
+          
+            <a href={"https://blog.naver.com/forportfolio/222788712058"} target="_blank" rel="noreferrer" style={{color:"blue"}}>
+              <List >코드스테이츠 소프트웨어 엔지니어링 과정 26기 수료</List>
+              </a>
+            <List >세명대학교 국제통상학과 졸업</List>
+          
         </ol>
       </Container>
       <Container>

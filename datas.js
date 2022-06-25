@@ -1,5 +1,31 @@
 export const personalData = [
     {
+      img: "bransome.gif",
+      url: "https://www.notion.so/11-Bgle-Bransome-40d666f548064c39a4bc93dd8a0df107",
+      date: "2021-04",
+      project_name: "Bransome",
+      position: "백엔드",
+      stacks: "Javascript, NodeJS,  Express, Mysql, Sequlize, AWS(S3, EC2,RDS)",
+      task:
+        "브랜썸은 조금 더 쉽고 빠르게 브랜딩 영감을 공유",
+      my_task: [
+        {
+          task:"AWS 배포",
+          url:"",
+      },
+        {
+          task:"서버와 DB 셋팅",
+          url:"",
+      },
+        {
+          task:"로그인, 로그아웃 API 구현",
+          url:"",
+      },
+      
+      ],
+   
+    },
+    {
       img: "remote-job-searching.gif",
       url: null,
       date: "2021-09",
@@ -61,9 +87,9 @@ export const lunaData = [
       date: "2021-08~2021-10",
       project_name: "대림건설의 GTX 공사 통합관리시스템",
       position: "풀스택",
-      stacks: "React, JQuery, NodeJS, MySQL",
+      stacks: "React, JQuery, NodeJS, Express, MySQL",
       task:
-        "GTX 공사 통합관리시스템웹을 요청사항에 따라 기능 추가 및 에러 핸들링 등 유지보수 업무 수행",
+        "GTX 공사 통합관리시스템을 요청사항에 따라 기능 추가 및 에러 핸들링 등 유지보수 업무 수행",
      
       my_task: [
         {

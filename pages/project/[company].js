@@ -147,7 +147,7 @@ export default function ProjectDetail() {
                 <Content>{data.stacks}</Content>
               </ContentBox>
               <ContentBox>
-                <DetailTitle>업무</DetailTitle>
+                <DetailTitle>프로젝트 내용</DetailTitle>
                 <Content>{data.task}</Content>
               </ContentBox>
               <ContentBox>
