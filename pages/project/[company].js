@@ -122,7 +122,7 @@ export default function ProjectDetail() {
               <>
               <ProjectHoverImg src={data.img}/>
               <div style={{textAlign:"center", width:"100%"}}>
-                <Text>(로고 위에 마우스포인터를 올려주세요)</Text>
+                <Text>(이미지 위에 마우스포인터를 올려주세요)</Text>
               </div>
               </>
               :
