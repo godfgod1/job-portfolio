@@ -121,7 +121,7 @@ export const lunaData = [
       my_task: [
         {
           task:"기존의 Session을 JWT 로그인으로 변경",
-          url:"https://blog.naver.com/forportfolio/222784565790",
+          url:"",
       },
         {
           task:"toast grid을 활용하여 데이터를 수정 및 삭제 기능 구현",
@@ -133,7 +133,7 @@ export const lunaData = [
       },
         {
           task:"Queue 처리를 통해서 발생한 대용량 로그정보를 순차적으로 저장하도록 변경",
-          url:"https://blog.naver.com/forportfolio/222784582874",
+          url:"",
       },
         {
           task:"기존의 PHP 프론트페이지를 리액트로 변경",
@@ -154,11 +154,11 @@ export const lunaData = [
       my_task: [
         {
           task:"대용량 데이터를 검색할때 먼저 가져오는 것부터 실시간으로 보여주는 polling search 기능 구현",
-          url:"https://blog.naver.com/forportfolio/222784644631",
+          url:"",
       },
         {
           task:"검색된 데이터를 필터 조건에 맞게 재검색할 수 있도록 구현",
-          url:"https://blog.naver.com/forportfolio/222784647451",
+          url:"",
       },
         {
           task:"고객센터 QnA 게시판 CRUD API 개발",
